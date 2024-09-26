@@ -175,6 +175,8 @@ if 'xilinx_alveo' in platform:
   report_path = 'vivado_proj/reports'
 elif 'xilinx_vcu118' in platform:
   report_path = 'build/reports'
+elif 'xilinx_vcu128' in platform:
+  report_path = 'build/reports'
 elif 'vitis' in platform:
   report_path = '' # TODO: get actual path of reports (low-pri since vitis shouldn't be used)
 elif 'rhsresearch_nitefury_ii' in platform:

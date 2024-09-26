@@ -131,6 +131,14 @@ class BaseXilinxVCU118Config
         new midas.XilinxVCU118Config
     )
 
+class BaseXilinxVCU128Config
+    extends Config(
+      new WithDefaultMemModel ++
+        new WithWiringTransform ++
+        new WithAsyncResetReplacement ++
+        new midas.XilinxVCU128Config
+    )
+    
 class BaseVitisConfig
     extends Config(
       new WithDefaultMemModel ++

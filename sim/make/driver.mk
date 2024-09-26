@@ -53,6 +53,7 @@ $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u250
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u280))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u200))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_vcu118))
+$(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_vcu128))
 $(eval $(call built_within_conda_only_driver_compilation_rules,rhsresearch_nitefury_ii))
 
 # these compilation flags are only guaranteed to work for ubuntu 20.04/18.04 (other OS's are not supported since vitis is experimental)

@@ -13,6 +13,7 @@ scala-doc-env.sh
 /.conda-env
 /.conda-lock-env
 .metals
+.vscode
 vivado*.log
 vivado*.jou
 __pycache__

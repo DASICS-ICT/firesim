@@ -51,6 +51,7 @@ endef
 
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u250))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u280))
+$(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_v80))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_alveo_u200))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_vcu118))
 $(eval $(call built_within_conda_only_driver_compilation_rules,xilinx_vcu128))

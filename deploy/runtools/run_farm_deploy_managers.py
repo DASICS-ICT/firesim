@@ -1336,6 +1336,10 @@ class XilinxAlveoU280InstanceDeployManager(XilinxAlveoInstanceDeployManager):
         super().__init__(parent_node)
         self.PLATFORM_NAME = "xilinx_alveo_u280"
 
+class XilinxAlveoV80InstanceDeployManager(XilinxAlveoInstanceDeployManager):
+    def __init__(self, parent_node: Inst) -> None:
+        super().__init__(parent_node)
+        self.PLATFORM_NAME = "xilinx_alveo_v80"
 
 class XilinxAlveoU200InstanceDeployManager(XilinxAlveoInstanceDeployManager):
     def __init__(self, parent_node: Inst) -> None:

@@ -147,6 +147,7 @@ class XilinxAlveoU200Config
     }) ++ new XilinxAlveoU250Config)
 
 class XilinxAlveoU280Config extends XilinxAlveoU200Config
+class XilinxAlveoV80Config extends XilinxAlveoU200Config
 
 class NitefuryConfig
     extends Config(new Config((_, _, _) => {

@@ -906,6 +906,10 @@ class XilinxAlveoU280BitBuilder(XilinxAlveoBitBuilder):
         super().__init__(build_config, args)
         self.BOARD_NAME = "au280"
 
+class XilinxAlveoV80BitBuilder(XilinxAlveoBitBuilder):
+    def __init__(self, build_config: BuildConfig, args: Dict[str, Any]) -> None:
+        super().__init__(build_config, args)
+        self.BOARD_NAME = "v80"
 
 class XilinxAlveoU250BitBuilder(XilinxAlveoBitBuilder):
     def __init__(self, build_config: BuildConfig, args: Dict[str, Any]) -> None:
